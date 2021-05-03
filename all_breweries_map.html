@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cb72a015a0a8416a881866b14bf95f4b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cb72a015a0a8416a881866b14bf95f4b" ></div>
+        
+</body>
+<script>    
+    
+            var map_cb72a015a0a8416a881866b14bf95f4b = L.map(
+                "map_cb72a015a0a8416a881866b14bf95f4b",
+                {
+                    center: [40.4443, -79.9532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_62e62384103943a19f66af2799064fa9 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+            var marker_dc04988afe94497b8848b949b778a203 = L.marker(
+                [40.45652, -79.92217],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_bd0fc7d9f714446583216b48ac5bd589 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_dc04988afe94497b8848b949b778a203.setIcon(custom_icon_bd0fc7d9f714446583216b48ac5bd589);
+        
+    
+        var popup_2e3b78c6360649f5b4fe58fd6e9e5a27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24fbaf327ade45d89339d05e4cf488cb = $(`<div id="html_24fbaf327ade45d89339d05e4cf488cb" style="width: 100.0%; height: 100.0%;">home</div>`)[0];
+            popup_2e3b78c6360649f5b4fe58fd6e9e5a27.setContent(html_24fbaf327ade45d89339d05e4cf488cb);
+        
+
+        marker_dc04988afe94497b8848b949b778a203.bindPopup(popup_2e3b78c6360649f5b4fe58fd6e9e5a27)
+        ;
+
+        
+    
+    
+            var marker_549950c74d2048829fa979940bfac685 = L.marker(
+                [40.45446, -80.00003],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_8249859e740e4075b7adef4f234c7209 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_549950c74d2048829fa979940bfac685.setIcon(custom_icon_8249859e740e4075b7adef4f234c7209);
+        
+    
+        var popup_109928d7d7c441999bcceb7ec795a484 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23efc2f06eee414da4aeba74aed4619d = $(`<div id="html_23efc2f06eee414da4aeba74aed4619d" style="width: 100.0%; height: 100.0%;">Allegheny City</div>`)[0];
+            popup_109928d7d7c441999bcceb7ec795a484.setContent(html_23efc2f06eee414da4aeba74aed4619d);
+        
+
+        marker_549950c74d2048829fa979940bfac685.bindPopup(popup_109928d7d7c441999bcceb7ec795a484)
+        ;
+
+        
+    
+    
+            var marker_1a33ab24d2634b3cbdaebcdc4a89c9da = L.marker(
+                [40.45697, -79.99178],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_34f171081adc4b82a3e666fa26c570da = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_1a33ab24d2634b3cbdaebcdc4a89c9da.setIcon(custom_icon_34f171081adc4b82a3e666fa26c570da);
+        
+    
+        var popup_01656d2a349147218f58729f4bb8bc56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84687fd00b554840a1fd960bfdc19137 = $(`<div id="html_84687fd00b554840a1fd960bfdc19137" style="width: 100.0%; height: 100.0%;">Penn Brewery</div>`)[0];
+            popup_01656d2a349147218f58729f4bb8bc56.setContent(html_84687fd00b554840a1fd960bfdc19137);
+        
+
+        marker_1a33ab24d2634b3cbdaebcdc4a89c9da.bindPopup(popup_01656d2a349147218f58729f4bb8bc56)
+        ;
+
+        
+    
+    
+            var marker_8df873224d8d48b28c10cc4af379e78f = L.marker(
+                [40.45064, -79.9846],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_dad25c8049464b598ef8fdd189ea1619 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_8df873224d8d48b28c10cc4af379e78f.setIcon(custom_icon_dad25c8049464b598ef8fdd189ea1619);
+        
+    
+        var popup_4f591945f0ee4c28b7b457952602f80c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f0fde6a9b724f7f8ecdd1ff4a2a6825 = $(`<div id="html_3f0fde6a9b724f7f8ecdd1ff4a2a6825" style="width: 100.0%; height: 100.0%;">Insurrection</div>`)[0];
+            popup_4f591945f0ee4c28b7b457952602f80c.setContent(html_3f0fde6a9b724f7f8ecdd1ff4a2a6825);
+        
+
+        marker_8df873224d8d48b28c10cc4af379e78f.bindPopup(popup_4f591945f0ee4c28b7b457952602f80c)
+        ;
+
+        
+    
+    
+            var marker_0564e078f3094fe4ba7150b38b938622 = L.marker(
+                [40.44983, -79.98587],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_facb1df7357a46cb997f123ce3cedda1 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_0564e078f3094fe4ba7150b38b938622.setIcon(custom_icon_facb1df7357a46cb997f123ce3cedda1);
+        
+    
+        var popup_b8dcade5bc2745e4b24cfcd1ffac2676 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b83eb77e5dc45f1b38a5959cfa06b32 = $(`<div id="html_2b83eb77e5dc45f1b38a5959cfa06b32" style="width: 100.0%; height: 100.0%;">Helltown</div>`)[0];
+            popup_b8dcade5bc2745e4b24cfcd1ffac2676.setContent(html_2b83eb77e5dc45f1b38a5959cfa06b32);
+        
+
+        marker_0564e078f3094fe4ba7150b38b938622.bindPopup(popup_b8dcade5bc2745e4b24cfcd1ffac2676)
+        ;
+
+        
+    
+    
+            var marker_20f05c17fd3b477292e433e6488a2641 = L.marker(
+                [40.49457, -79.93265],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_99e0f2021de640e6bcd145e27ad7f12c = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_20f05c17fd3b477292e433e6488a2641.setIcon(custom_icon_99e0f2021de640e6bcd145e27ad7f12c);
+        
+    
+        var popup_24810dc04b0142dc9bd6a2525d9b6724 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f616816771fa4d2eb7be95bef753e61a = $(`<div id="html_f616816771fa4d2eb7be95bef753e61a" style="width: 100.0%; height: 100.0%;">Dancing Gnome</div>`)[0];
+            popup_24810dc04b0142dc9bd6a2525d9b6724.setContent(html_f616816771fa4d2eb7be95bef753e61a);
+        
+
+        marker_20f05c17fd3b477292e433e6488a2641.bindPopup(popup_24810dc04b0142dc9bd6a2525d9b6724)
+        ;
+
+        
+    
+    
+            var marker_5c1742dcb45a404b837c760f66ae7040 = L.marker(
+                [40.4963, -79.92657],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_6d182fef037a4d629a557f02e8380e53 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_5c1742dcb45a404b837c760f66ae7040.setIcon(custom_icon_6d182fef037a4d629a557f02e8380e53);
+        
+    
+        var popup_c2162d11b867473b812a162228d4c896 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_881b5eb32f9f46f8bd8a93f60606556b = $(`<div id="html_881b5eb32f9f46f8bd8a93f60606556b" style="width: 100.0%; height: 100.0%;">Hitchhiker</div>`)[0];
+            popup_c2162d11b867473b812a162228d4c896.setContent(html_881b5eb32f9f46f8bd8a93f60606556b);
+        
+
+        marker_5c1742dcb45a404b837c760f66ae7040.bindPopup(popup_c2162d11b867473b812a162228d4c896)
+        ;
+
+        
+    
+    
+            var marker_01921a659b6443948a4a53e7a53212fb = L.marker(
+                [40.46689, -79.96541],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_c94456e5bbad4885ba76a61b441fb9c4 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_01921a659b6443948a4a53e7a53212fb.setIcon(custom_icon_c94456e5bbad4885ba76a61b441fb9c4);
+        
+    
+        var popup_3d0e37fc88424de6812af84c481ae895 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa54151f98e94dea99a3a30bd202f316 = $(`<div id="html_fa54151f98e94dea99a3a30bd202f316" style="width: 100.0%; height: 100.0%;">Eleventh Hour</div>`)[0];
+            popup_3d0e37fc88424de6812af84c481ae895.setContent(html_fa54151f98e94dea99a3a30bd202f316);
+        
+
+        marker_01921a659b6443948a4a53e7a53212fb.bindPopup(popup_3d0e37fc88424de6812af84c481ae895)
+        ;
+
+        
+    
+    
+            var marker_f22fc214ff0f4a5a8ff86c645c159a82 = L.marker(
+                [40.46548, -79.96524],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_72c3f3287a6e42a39f8eabc83c5f04aa = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_f22fc214ff0f4a5a8ff86c645c159a82.setIcon(custom_icon_72c3f3287a6e42a39f8eabc83c5f04aa);
+        
+    
+        var popup_a8a4076477fb4bb6a6217683c9802e1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e72d8cdc92140f6b308f164dabccc13 = $(`<div id="html_6e72d8cdc92140f6b308f164dabccc13" style="width: 100.0%; height: 100.0%;">Burghers</div>`)[0];
+            popup_a8a4076477fb4bb6a6217683c9802e1c.setContent(html_6e72d8cdc92140f6b308f164dabccc13);
+        
+
+        marker_f22fc214ff0f4a5a8ff86c645c159a82.bindPopup(popup_a8a4076477fb4bb6a6217683c9802e1c)
+        ;
+
+        
+    
+    
+            var marker_50a9c0ec5de44bfe8c5c5010d5c897f2 = L.marker(
+                [40.4065, -79.90998],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_41746ad8f0ec4c4b91c77ca02ddf042b = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_50a9c0ec5de44bfe8c5c5010d5c897f2.setIcon(custom_icon_41746ad8f0ec4c4b91c77ca02ddf042b);
+        
+    
+        var popup_e1b94dd32ab64727bfffda938ac6a44e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aeefc321e51484e8203808945e3b34a = $(`<div id="html_9aeefc321e51484e8203808945e3b34a" style="width: 100.0%; height: 100.0%;">Voodo</div>`)[0];
+            popup_e1b94dd32ab64727bfffda938ac6a44e.setContent(html_9aeefc321e51484e8203808945e3b34a);
+        
+
+        marker_50a9c0ec5de44bfe8c5c5010d5c897f2.bindPopup(popup_e1b94dd32ab64727bfffda938ac6a44e)
+        ;
+
+        
+    
+    
+            var marker_0bd5f45b250243efb97b29e871806aa8 = L.marker(
+                [40.48444, -79.94795],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_c756e37a00da4bac9cdf9f06559bcc55 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_0bd5f45b250243efb97b29e871806aa8.setIcon(custom_icon_c756e37a00da4bac9cdf9f06559bcc55);
+        
+    
+        var popup_073d656ed5104dfbbf5df9cc17e57091 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca83cfe2cca64444bc9fa40285b27026 = $(`<div id="html_ca83cfe2cca64444bc9fa40285b27026" style="width: 100.0%; height: 100.0%;">Hop Farm</div>`)[0];
+            popup_073d656ed5104dfbbf5df9cc17e57091.setContent(html_ca83cfe2cca64444bc9fa40285b27026);
+        
+
+        marker_0bd5f45b250243efb97b29e871806aa8.bindPopup(popup_073d656ed5104dfbbf5df9cc17e57091)
+        ;
+
+        
+    
+    
+            var marker_39ae45e4427d4e3e802dafeea5c0b7a5 = L.marker(
+                [40.47713, -79.95685],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_15c72eced62f458eb787dda61bd9f1a8 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_39ae45e4427d4e3e802dafeea5c0b7a5.setIcon(custom_icon_15c72eced62f458eb787dda61bd9f1a8);
+        
+    
+        var popup_20008e2e863546029556108c1dfa589a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1cdd15f57d8476cb020a48de89fb090 = $(`<div id="html_b1cdd15f57d8476cb020a48de89fb090" style="width: 100.0%; height: 100.0%;">Roundabout</div>`)[0];
+            popup_20008e2e863546029556108c1dfa589a.setContent(html_b1cdd15f57d8476cb020a48de89fb090);
+        
+
+        marker_39ae45e4427d4e3e802dafeea5c0b7a5.bindPopup(popup_20008e2e863546029556108c1dfa589a)
+        ;
+
+        
+    
+    
+            var marker_389d11175ed944c789386a0ed32e7925 = L.marker(
+                [40.46424, -79.9533],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_9978e9cf34e14bde90eec2cdb0c72c68 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_389d11175ed944c789386a0ed32e7925.setIcon(custom_icon_9978e9cf34e14bde90eec2cdb0c72c68);
+        
+    
+        var popup_bf0fb7b60e9f4b3aaecfed97c9f8715c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_343f0bfab89440298b65770814885e76 = $(`<div id="html_343f0bfab89440298b65770814885e76" style="width: 100.0%; height: 100.0%;">Trace</div>`)[0];
+            popup_bf0fb7b60e9f4b3aaecfed97c9f8715c.setContent(html_343f0bfab89440298b65770814885e76);
+        
+
+        marker_389d11175ed944c789386a0ed32e7925.bindPopup(popup_bf0fb7b60e9f4b3aaecfed97c9f8715c)
+        ;
+
+        
+    
+    
+            var marker_418e71f283614f4bb31f04a215481496 = L.marker(
+                [40.46051, -79.92303],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_18515a6a56134551808a283897879a13 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_418e71f283614f4bb31f04a215481496.setIcon(custom_icon_18515a6a56134551808a283897879a13);
+        
+    
+        var popup_e6a3e04069144890ad55ab43c5995613 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3184ea12e9724338b580959c1ce54393 = $(`<div id="html_3184ea12e9724338b580959c1ce54393" style="width: 100.0%; height: 100.0%;">Brewdog</div>`)[0];
+            popup_e6a3e04069144890ad55ab43c5995613.setContent(html_3184ea12e9724338b580959c1ce54393);
+        
+
+        marker_418e71f283614f4bb31f04a215481496.bindPopup(popup_e6a3e04069144890ad55ab43c5995613)
+        ;
+
+        
+    
+    
+            var marker_9fd6732efa38479a8e58bc73b3bbe2cf = L.marker(
+                [40.47899, -79.97233],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_ce8c5f23ed344a118034a752bea8b80a = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_9fd6732efa38479a8e58bc73b3bbe2cf.setIcon(custom_icon_ce8c5f23ed344a118034a752bea8b80a);
+        
+    
+        var popup_f103a72ca4554f0fadd6dea9a8b26924 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_211a3c4f525940428abec6a853663831 = $(`<div id="html_211a3c4f525940428abec6a853663831" style="width: 100.0%; height: 100.0%;">Grist House</div>`)[0];
+            popup_f103a72ca4554f0fadd6dea9a8b26924.setContent(html_211a3c4f525940428abec6a853663831);
+        
+
+        marker_9fd6732efa38479a8e58bc73b3bbe2cf.bindPopup(popup_f103a72ca4554f0fadd6dea9a8b26924)
+        ;
+
+        
+    
+    
+            var marker_a2e7fd2fddb0438dabe51520e8fd7844 = L.marker(
+                [40.45919, -79.91144],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_85ffe80ab89e43c8b7d64beb80cd6994 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_a2e7fd2fddb0438dabe51520e8fd7844.setIcon(custom_icon_85ffe80ab89e43c8b7d64beb80cd6994);
+        
+    
+        var popup_7ed78752f0004683be3e376a7f4eaf36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bdbd65224b54e5999aa74384a487f96 = $(`<div id="html_0bdbd65224b54e5999aa74384a487f96" style="width: 100.0%; height: 100.0%;">East End</div>`)[0];
+            popup_7ed78752f0004683be3e376a7f4eaf36.setContent(html_0bdbd65224b54e5999aa74384a487f96);
+        
+
+        marker_a2e7fd2fddb0438dabe51520e8fd7844.bindPopup(popup_7ed78752f0004683be3e376a7f4eaf36)
+        ;
+
+        
+    
+    
+            var marker_34c049f6703e478a980cb227d9a2a2d9 = L.marker(
+                [40.47304, -79.90837],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_3ed73d22081e4e308c7712f85dd46274 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_34c049f6703e478a980cb227d9a2a2d9.setIcon(custom_icon_3ed73d22081e4e308c7712f85dd46274);
+        
+    
+        var popup_fbf145437e2043cab1af66ce28f9a72b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3854175eaa94fb2b97cebc1adb4528f = $(`<div id="html_a3854175eaa94fb2b97cebc1adb4528f" style="width: 100.0%; height: 100.0%;">Couch Brewery</div>`)[0];
+            popup_fbf145437e2043cab1af66ce28f9a72b.setContent(html_a3854175eaa94fb2b97cebc1adb4528f);
+        
+
+        marker_34c049f6703e478a980cb227d9a2a2d9.bindPopup(popup_fbf145437e2043cab1af66ce28f9a72b)
+        ;
+
+        
+    
+    
+            var marker_ae00f03d7c9443d2aab29f787a5c1cb5 = L.marker(
+                [40.46183, -79.96429],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_1c018697c97644739f55470cbc6e3fe5 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_ae00f03d7c9443d2aab29f787a5c1cb5.setIcon(custom_icon_1c018697c97644739f55470cbc6e3fe5);
+        
+    
+        var popup_c0d1fe0875d7409ca86d91a1ffa976e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f3ddfa32a02490597d386472e16a2c4 = $(`<div id="html_1f3ddfa32a02490597d386472e16a2c4" style="width: 100.0%; height: 100.0%;">Church</div>`)[0];
+            popup_c0d1fe0875d7409ca86d91a1ffa976e5.setContent(html_1f3ddfa32a02490597d386472e16a2c4);
+        
+
+        marker_ae00f03d7c9443d2aab29f787a5c1cb5.bindPopup(popup_c0d1fe0875d7409ca86d91a1ffa976e5)
+        ;
+
+        
+    
+    
+            var marker_4db1417678274ad285db68b3fa421871 = L.marker(
+                [40.47854, -79.96824],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_140ecdd2e9af4ca8a762df85059581ff = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_4db1417678274ad285db68b3fa421871.setIcon(custom_icon_140ecdd2e9af4ca8a762df85059581ff);
+        
+    
+        var popup_559b393d01434ce5993e26f3377a8d53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a56165132d4407a8dbc3a3ea073aba2 = $(`<div id="html_3a56165132d4407a8dbc3a3ea073aba2" style="width: 100.0%; height: 100.0%;">Strange Roots</div>`)[0];
+            popup_559b393d01434ce5993e26f3377a8d53.setContent(html_3a56165132d4407a8dbc3a3ea073aba2);
+        
+
+        marker_4db1417678274ad285db68b3fa421871.bindPopup(popup_559b393d01434ce5993e26f3377a8d53)
+        ;
+
+        
+    
+    
+            var marker_ee7f0f90002e4bb9b1247d62e7521758 = L.marker(
+                [40.42874, -79.98016],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_93f83b064a7a4674a366f8e01abc6e43 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_ee7f0f90002e4bb9b1247d62e7521758.setIcon(custom_icon_93f83b064a7a4674a366f8e01abc6e43);
+        
+    
+        var popup_1062fd7f56ac4f238b9e9e63c02308a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d5ab11a401349b6a32b5a798e71d6e1 = $(`<div id="html_2d5ab11a401349b6a32b5a798e71d6e1" style="width: 100.0%; height: 100.0%;">Fat Head's</div>`)[0];
+            popup_1062fd7f56ac4f238b9e9e63c02308a7.setContent(html_2d5ab11a401349b6a32b5a798e71d6e1);
+        
+
+        marker_ee7f0f90002e4bb9b1247d62e7521758.bindPopup(popup_1062fd7f56ac4f238b9e9e63c02308a7)
+        ;
+
+        
+    
+    
+            var marker_01e07e5facae49e597223304a9590e78 = L.marker(
+                [40.45573, -79.97906],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_6b432cfcc48d4d6f8200e5fe36395d99 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_01e07e5facae49e597223304a9590e78.setIcon(custom_icon_6b432cfcc48d4d6f8200e5fe36395d99);
+        
+    
+        var popup_e4ec3663680b4150923e134260d13e24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bfc17220e6d4248a27721222c5e4fe6 = $(`<div id="html_4bfc17220e6d4248a27721222c5e4fe6" style="width: 100.0%; height: 100.0%;">Cinderlands</div>`)[0];
+            popup_e4ec3663680b4150923e134260d13e24.setContent(html_4bfc17220e6d4248a27721222c5e4fe6);
+        
+
+        marker_01e07e5facae49e597223304a9590e78.bindPopup(popup_e4ec3663680b4150923e134260d13e24)
+        ;
+
+        
+    
+    
+            var marker_6c1acbbf7c804fea96e09ba8f2ace4a8 = L.marker(
+                [40.45206, -80.01602],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_9f5e2f12bec944a881265199e9d0859a = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_6c1acbbf7c804fea96e09ba8f2ace4a8.setIcon(custom_icon_9f5e2f12bec944a881265199e9d0859a);
+        
+    
+        var popup_aad428940e8a4f5c8ab88ede99a55841 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e1e26f3c78e4189a50789ada7fb8e7c = $(`<div id="html_0e1e26f3c78e4189a50789ada7fb8e7c" style="width: 100.0%; height: 100.0%;">412 Brewery</div>`)[0];
+            popup_aad428940e8a4f5c8ab88ede99a55841.setContent(html_0e1e26f3c78e4189a50789ada7fb8e7c);
+        
+
+        marker_6c1acbbf7c804fea96e09ba8f2ace4a8.bindPopup(popup_aad428940e8a4f5c8ab88ede99a55841)
+        ;
+
+        
+    
+    
+            var marker_7fe6a17c0fd246b593334cce2cac0c7f = L.marker(
+                [40.45652, -79.92217],
+                {}
+            ).addTo(map_cb72a015a0a8416a881866b14bf95f4b);
+        
+    
+        var custom_icon_d0eff5c9029a478a8a5462c610039f61 = L.icon({"iconSize": [14, 14], "iconUrl": "https://devrajkori.com/wp-content/uploads/2021/04/beer_icon.png"});
+        marker_7fe6a17c0fd246b593334cce2cac0c7f.setIcon(custom_icon_d0eff5c9029a478a8a5462c610039f61);
+        
+    
+        var popup_aacd71e8e17a4c2b9262d7db727c0963 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_989ea897fd514df9ad2132b599e8fe29 = $(`<div id="html_989ea897fd514df9ad2132b599e8fe29" style="width: 100.0%; height: 100.0%;">home</div>`)[0];
+            popup_aacd71e8e17a4c2b9262d7db727c0963.setContent(html_989ea897fd514df9ad2132b599e8fe29);
+        
+
+        marker_7fe6a17c0fd246b593334cce2cac0c7f.bindPopup(popup_aacd71e8e17a4c2b9262d7db727c0963)
+        ;
+
+        
+    
+</script>
